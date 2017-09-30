@@ -5,3 +5,5 @@ git status 查看仓库当前状态,比如修改了文件却没有提交, 告诉
 git diff 查看未提交文件变化情况,可以查看修改内容。
 git log 修改记录,各版本修改记录
 git log --pretty=oneline 将各版本修改记录一行显示
+git reset hard HEAD^ HEAD代表当前版本, HEAD^表示上一个版本, 上上个版本可以写成HEAD^^, 上100个版本可以写成HEAD~100
+git reset hard 版本号   回退到某一个版本,版本号只需要填写前面几个即可
