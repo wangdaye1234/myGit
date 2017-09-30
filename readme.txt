@@ -8,3 +8,4 @@ git log --pretty=oneline 将各版本修改记录一行显示
 git reset hard HEAD^ HEAD代表当前版本, HEAD^表示上一个版本, 上上个版本可以写成HEAD^^, 上100个版本可以写成HEAD~100
 git reset hard 版本号   回退到某一个版本,版本号只需要填写前面几个即可
 git reflog 记录命令记录,可以找到某个版本的版本号,可用作恢复等操作
+cat 文件   查看文件内容
