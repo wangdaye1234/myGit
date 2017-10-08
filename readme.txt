@@ -12,3 +12,4 @@ cat 文件   查看文件内容
 git checkout -- 文件   把文件在工作区的修改全部撤销一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。总之，就是让这个文件回到最近一次git commit或git add时的状态。
 git reset HEAD file   将add到暂存区的文件撤销.回复到最新版本
 git rm file   删除一个文件
+git push origin master  同步到GitHub仓库
