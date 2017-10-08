@@ -15,3 +15,7 @@ git rm file   删除一个文件
 git push origin master  同步到GitHub仓库
 git checkout -b dev  创建dev分支，然后切换到dev分支, 相当于git branch dev ,git checkout dev 两条命令
 git branch  查看分支列表
+git merge dev    将dev分支合并
+git branch -d dev   删除dev分支
+git stash  可以把当前工作现场'储藏'起来, 等以后恢复现场继续工作
+git stash pop  恢复工作现场
