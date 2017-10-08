@@ -13,3 +13,5 @@ git checkout -- 文件   把文件在工作区的修改全部撤销一种是read
 git reset HEAD file   将add到暂存区的文件撤销.回复到最新版本
 git rm file   删除一个文件
 git push origin master  同步到GitHub仓库
+git checkout -b dev  创建dev分支，然后切换到dev分支, 相当于git branch dev ,git checkout dev 两条命令
+git branch  查看分支列表
